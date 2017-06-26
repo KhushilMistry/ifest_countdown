@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.particle-Header {
+    margin: 0px 0px 50px 0px;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    background-image: url("../../images/Cover.jpeg");
+    /*background: linear-gradient(to right, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: 100% 100%;*/
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    top: 150px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.large_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
