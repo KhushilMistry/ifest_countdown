@@ -648,6 +648,9 @@ h3 {
     .logoImage{
         margin-top: -100px;
     }
+    .countdown-allwrapp {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -717,7 +720,7 @@ h3 {
     }
 
     .comingsoon__nav {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .c-nav__link {
