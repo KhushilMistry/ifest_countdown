@@ -45,3 +45,31 @@ canvas {
     letter-spacing: 1px;
     font-weight: 100;
 }
+
+.icon {
+    color: #ffffff;
+    opacity: 0.5;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.margin-top-sm {
+    margin-top: 10px;
+}
+
+.margin-top-md {
+    margin-top: 20px;
+}
+
+.margin-top-lg {
+    margin-top: 30px;
+}
+
+.margin-top-xl {
+    margin-top: 40px;
+}
+
+.page-bottom {
+    margin-bottom: 100px;
+}
