@@ -73,3 +73,29 @@ canvas {
 .page-bottom {
     margin-bottom: 100px;
 }
+
+.margin-bottom-xl{
+    margin-bottom: 50px;
+}
+
+.name {
+    color: #3c3c3c;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.position {
+    color: #565656;
+    font-size: 17px;
+    margin-top: -8px;
+}
+
+.number {
+    color: #808080;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.div-animation{
+    opacity: 0;
+}
