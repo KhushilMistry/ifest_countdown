@@ -21,42 +21,42 @@
             <img class="center-block margin-top-xl" src="images/sponsors/IEEESB.png" width="200">
         </div>
         <div class="col-lg-4 col-sm-12">
-            <img class="center-block margin-top-lg " id="ncode" src="images/sponsors/ncode.png" height="110" >
+            <img class="center-block margin-top-lg " id="ncode" src="images/sponsors/ncode.png" height="110">
         </div>
         <div class="col-lg-4 col-sm-12">
-            <img class="center-block margin-top-lg" src="images/sponsors/gnfc.png" height="110" >
+            <img class="center-block margin-top-lg" src="images/sponsors/gnfc.png" height="110">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 ">
             <img class="center-block margin-top-xl" src="images/sponsors/Endeavor_Careers_Logo.jpg" height="90">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 ">
             <img class="center-block margin-top-lg" src="images/sponsors/mozilla.png" height="110">
         </div>
         <div class="col-lg-4 col-sm-12">
             <img class="center-block margin-top-xl" src="images/sponsors/wmf.jpg" height="110">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-md" src="images/sponsors/codechef.jpg" height="140">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-xl" src="images/sponsors/hackerrank.png" height="120">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-xl" src="images/sponsors/i.create%20logo.jpeg" height="120">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-md" src="images/sponsors/Directi-Logo.png" height="100">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-md" src="images/sponsors/dst_logo.png" height="90">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-lg" src="images/sponsors/gujcost_mainLogo1.png" height="90">
         </div>
-        <div class="col-lg-4 col-lg-offset-2 col-sm-12">
+        <div class="col-lg-4 col-lg-offset-2 col-sm-12 div-animation">
             <img class="center-block margin-top-lg" src="images/sponsors/wie.png" height="100">
         </div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 div-animation">
             <img class="center-block margin-top-xl" src="images/sponsors/iassb.png" height="100">
         </div>
     </div>
@@ -69,6 +69,28 @@
 <script>
   particlesJS.load('particles-js', 'static/particles.json', function () {
     console.log('callback - particles.js config loaded');
+  });
+</script>
+<script>
+  $(document).ready(function () {
+
+    $(window).scroll(function () {
+      $('.div-animation').each(function (i) {
+
+        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+
+        if (bottom_of_window > bottom_of_object) {
+
+          $(this).animate({ 'opacity': '1' }, 1500);
+
+        }
+
+      });
+
+    });
+
   });
 </script>
 </body>

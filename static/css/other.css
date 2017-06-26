@@ -74,7 +74,7 @@ canvas {
     margin-bottom: 100px;
 }
 
-.margin-bottom-xl{
+.margin-bottom-xl {
     margin-bottom: 50px;
 }
 
@@ -96,6 +96,51 @@ canvas {
     margin-top: -5px;
 }
 
-.div-animation{
-    opacity: 0;
+.event-name {
+    font-size: 20px;
+    color: #212121;
+    margin-top: 14px;
 }
+
+.event-type {
+    font-size: 15px;
+    color: #565656;
+    margin-top: -5px;
+}
+
+.event-container:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .div-animation {
+        opacity: 1;
+    }
+
+    #ncode {
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-animation {
+        opacity: 0;
+    }
+
+    #ncode {
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .div-animation {
+        opacity: 0;
+    }
+}
+
+
+
