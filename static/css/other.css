@@ -180,7 +180,7 @@ canvas {
 }
 
 .modal-image {
-    /*background-image: url('../../images/Cover.jpeg');*/
+
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     background-attachment: fixed;
     background-position: center;
@@ -188,7 +188,7 @@ canvas {
     background-size: cover;
     padding-top: 180px;
     padding-bottom: 140px;
-    margin: -20px;
+    margin: -18px;
 }
 
 .close {
